@@ -11,3 +11,6 @@ class AboutPageView(TemplateView):
 
 class MenuPageView(TemplateView):
     template_name = "menu.html"
+
+class ReservationPageView(TemplateView):
+    template_name = "reservation.html"
