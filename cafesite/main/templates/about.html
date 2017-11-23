@@ -1,13 +1,21 @@
 <!-- main/templates/about.html -->
+{% load static %}
+
+<link rel="stylesheet" type="text/css" href="{% static 'main/style.css' %}" />
+
 <!DOCTYPE html>
 <html>
     <head>
         <meta charset="utf-8">
         <title>Who is Jazzy Java?</title>
     </head>
-        <a href="/">Home</a>
-        <a href="/menu/">Menu</a>
-        <a href="/reservation/">Reservations</a>
+        <div class="head">
+            <div class="nav">
+                <div class ="home"> <a href="/">Home</a></div>
+                <div class ="menu"><a href="/menu/">Menu</a></div>
+                <div class ="reservation"><a href="/reservation/">Reservations</a></div>
+            </div>
+        </div>
     <body>
         <h1>Welcome to the about page</h1>
     <p>

@@ -1,0 +1,52 @@
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+html {
+  box-sizing: border-box;
+}
+.head {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+}
+.nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 25%;
+  padding: 20px;
+}
+.home{
+  display: flex;
+  align-items: center;
+  background: #6a3005;
+  opacity: 0.5;
+  padding: 20px;
+  color: black;
+}
+.about{
+  display: flex;
+  align-items: center;
+  background: #6a3005;
+  opacity: 0.5;
+  padding: 20px;
+}
+.menu{
+  display: flex;
+  align-items: center;
+  background: #6a3005;
+  opacity: 0.5;
+  padding: 20px;
+}
+.reservation{
+  display: flex;
+  align-items: center;
+  background: #6a3005;
+  opacity: 0.5;
+  padding: 20px;
+}
+a{
+color: black;
+}

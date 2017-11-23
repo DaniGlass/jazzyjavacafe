@@ -1,12 +1,18 @@
+{% load static %}
+
+<link rel="stylesheet" type="text/css" href="{% static 'main/style.css' %}" />
+
 <!DOCTYPE html>
 <html>
     <head>
         <meta charset="utf-8">
         <title>Menu</title>
     </head>
-        <a href="/">Home</a>
-        <a href="/about/">About</a>
-        <a href="/reservation/">Reservations</a>
+        <div class="nav">
+            <a href="/">Home</a>
+            <a href="/about/">About</a>
+            <a href="/reservation/">Reservations</a>
+        </div>
     <body>
         <h1>Welcome to the menu page</h1>
     <p>
