@@ -20,6 +20,11 @@ html {
     background-size: cover;
     background-repeat: no-repeat;
 }
+.reservation_page {
+    background-image: url("OpenTableSample.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 .header {
   display: flex;
   flex-direction: row-reverse;
@@ -66,3 +71,9 @@ a{
 color: white;
 text-decoration: none;
 }
+.coming_soon{
+color: red;
+}
+
+
+
